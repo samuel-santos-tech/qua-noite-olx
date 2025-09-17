@@ -36,7 +36,7 @@ export default function Drawer() {
                       className="relative rounded-md text-gray-300 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
                       <span className="absolute -inset-2.5" />
-                      <span className="sr-only">Close panel</span>
+                      <span className="sr-only">Fechar painel</span>
                       <XMarkIcon aria-hidden="true" className="size-6" />
                     </button>
                   </div>
@@ -44,7 +44,7 @@ export default function Drawer() {
                 <div className="relative flex h-full flex-col overflow-y-auto bg-white py-6 shadow-xl">
                   <div className="px-4 sm:px-6">
                     <DialogTitle className="text-base font-semibold text-gray-900">
-                      Panel title
+                      Título do painel
                     </DialogTitle>
                   </div>
                   <div className="relative mt-6 flex-1 px-4 sm:px-6">

@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function HeaderLogado() {
   const [state, setState] = useState(false);
 
-  const navigation = ["Logout"];
+  const navigation = ["Sair"];
 
   const submenuNav = ["Todos os anúncios", "Meus anúncios"];
 
@@ -85,7 +85,7 @@ export default function HeaderLogado() {
                 </svg>
                 <input
                   type="text"
-                  placeholder="Search"
+                  placeholder="Procurar"
                   className="w-full px-2 py-2 text-gray-500 bg-transparent rounded-md outline-none"
                 />
               </div>

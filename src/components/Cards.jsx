@@ -2,7 +2,7 @@ export default function Cards() {
   const jobs = [
     {
       title: "UI – Front End Dev",
-      desc: "Currently, ManTech is seeking a motivated, career and customer-oriented Software Developer to join our team in Fort Meade, MD.",
+      desc: "Atualmente, a ManTech está buscando um desenvolvedor de software motivado, voltado para a carreira e para o cliente para se juntar à nossa equipe em Fort Meade, MD.",
       date: "May 17, 2022",
       salary: "98,000 USD",
       type: "Full-time",
@@ -11,7 +11,7 @@ export default function Cards() {
     },
     {
       title: "Back End Developer",
-      desc: " Help us solve problems and develop great user interface tools for our developers.",
+      desc: " Ajude-nos a resolver problemas e desenvolver ótimas ferramentas de interface de usuário para nossos desenvolvedores.",
       date: "Nov 11, 2022",
       salary: "$105,000 USD",
       type: "Part-time",
@@ -20,7 +20,7 @@ export default function Cards() {
     },
     {
       title: "Full-Stack Developer",
-      desc: "This position is 100% remote, working as part of a small, multi-functional team. You must be confident at working alone.",
+      desc: "Esta posição é 100% remota, trabalhando como parte de uma equipe pequena e multifuncional. Você deve ter confiança para trabalhar sozinho.",
       date: "Jan 2, 2022",
       salary: "163,273 USD",
       type: "Full-time",
@@ -33,7 +33,7 @@ export default function Cards() {
     <section className="mt-12 max-w-screen-lg mx-auto px-4 md:px-8">
       <div>
         <h1 className="text-gray-800 text-3xl font-semibold">
-          Explore The Jobs
+          Explore os empregos
         </h1>
       </div>
 

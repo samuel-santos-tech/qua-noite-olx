@@ -2,6 +2,17 @@ import { PencilLineIcon, TrashIcon } from "@phosphor-icons/react";
 
 export default function CardsLogado() {
   const anunciosData = [
+     {
+      titulo: "Ventilador de teto",
+      descricaoCurta:
+        "Ventilador de teto usado, com controle remoto e iluminação LED.",
+      created_at: "01/10/2025",
+      preco: "R$ 150,00",
+      usuario: {
+        cidade: "Fortaleza",
+        estado: "CE",
+      },
+    },
     {
       titulo: "Bicicleta Aro 29",
       descricaoCurta:
